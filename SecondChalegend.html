@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./2°challenge.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link href = "https: //fonts.googleapis.com/css2? família = Nunito: wght @ 200 &family = Roboto & display = swap "rel =" stylesheet ">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <div id="bordermain" >
+            
+            <label class="name">Nome:
+                
+                <input  class=" picall" type="text" name="Nome">
+            </label>
+            
+            
+            <label id="emails">Email:
+                
+                <input class=" picall" type="email" name="email">
+            </label>
+            
+            <label class="name"> Idade:
+                
+                <input  class=" picall"type="number" name="Idade" required min="12" style="width: 60px;">
+            </label>
+            
+            
+            <label class="name">Data de Nascimento
+                
+                <input class=" picall" type="date" name="date">
+            </label>
+            
+            
+            <label class="name">Onde você possui conta:
+                <br>
+                <input  class=" picall" type="checkbox" name="conta" value="insta">Instagram <input type="checkbox" name="conta"
+                    value="face"> Facebook <input type="checkbox" name="conta" value="Youtube"> Youtube
+            </label>
+            
+            
+            <label class="name">Sexo
+                
+                <label>
+                    <input class=" picall" type="radio" name="sexo" value="male" checked>Msculino</label>
+                <label>
+                    <input  class=" picall"type="radio" name="sexo" value="female">Feminino</label>
+                
+                
+                <label>Cor dos Olhos
+                    <input  class=" picall" type="color" name="color-eyes" value="coloreyes">
+                </label>
+                
+                
+                <label for="bio">Biografia
+                    
+                    <textarea class=" picall" name="bio">
+
+                        </textarea>
+                </label>
+                
+                
+                <label>Foto do perfil
+                    
+                    <input class=" picall"  type="file" name="my profile" accept="image/*">
+                </label>
+                
+                
+                <label>Telefone
+                    <br>
+                    <input  class=" picall" type="tel" name="tel">
+                </label>
+                
+                
+                <label>Link do Perfil do Facebook
+                    
+                    <input class=" picall" type="url" name="linkface">
+                </label>
+                
+            
+                <label>Senha
+                    
+                    <input  class=" picall"type="password" name="senha" minlength="6" maxlength="8">
+                </label>
+                
+                
+                <button  id= "bottosn" stype="reset">Limpar
+
+                </button>
+                <button id= "botton" type="submit">
+                    Enviar
+                </button>
+
+            </div>
+
+
+
+
+
+
+
+
+       
+
+
+    </form>
+</body>
+
+</html>
